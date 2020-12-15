@@ -1,0 +1,17 @@
+model,is_preprocess,RMSE,fit_intercept,normalize,alpha,l1_ratio,max_iter,epsilon,n_iter,algorithm,n_neighbors,p,weights,criterion,max_depth,max_features,n_estimators
+Baseline,1,646.3281871315161,,,,,,,,,,,,,,,
+Baseline,0,633.3774384340276,,,,,,,,,,,,,,,
+LinearRegression,1,294.0917400200007,1.0,0.0,,,,,,,,,,,,,
+LinearRegression,0,422.6069075586671,1.0,0.0,,,,,,,,,,,,,
+ElasticNet,1,420.3243550808344,,,0.1,0.0,10000.0,,,,,,,,,,
+ElasticNet,0,422.84262983235146,,,0.75,1.0,10000.0,,,,,,,,,,
+HuberRegressor,1,355.8497121958572,,,,,,5.0,,,,,,,,,
+HuberRegressor,0,654.3061760864806,,,,,,2.0,,,,,,,,,
+BayesianRidge,1,294.5995785454357,,,,,,,5.0,,,,,,,,
+BayesianRidge,0,422.6778677726855,,,,,,,20.0,,,,,,,,
+ARDRegression,1,295.04372189788336,,,,,,,50.0,,,,,,,,
+ARDRegression,0,424.48430656813474,,,,,,,50.0,,,,,,,,
+KNeighborsRegressor,1,481.5465067971954,,,,,,,,ball_tree,5.0,1.0,distance,,,,
+KNeighborsRegressor,0,380.19939355029595,,,,,,,,ball_tree,5.0,1.0,distance,,,,
+RandomForestRegressor,1,186.31165369871493,,,,,,,,,,,,mse,50.0,auto,100.0
+RandomForestRegressor,0,218.66339666569246,,,,,,,,,,,,mse,,auto,100.0
