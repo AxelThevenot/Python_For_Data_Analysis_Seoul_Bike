@@ -52,3 +52,12 @@ r = requests.post(url, json={'inputs': serialize(X)})
 # get the predictions
 prediction = r.json()
 ```
+## Feautures preprocessing
+
+
+
+## Selected model
+
+### Model comparison
+
+### RandomForestRegressor
