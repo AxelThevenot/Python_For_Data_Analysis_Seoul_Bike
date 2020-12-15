@@ -1,5 +1,9 @@
 # Python_For_Data_Analysis_Seoul_Bike
 
+## How to use the API
+
+### Feature matrix creation
+
 On the client side, it will be ask to create a matrix of features to predict. Each row is a list of ordered features as following :
 
 |**Feature**| **Format**|
@@ -13,11 +17,16 @@ On the client side, it will be ask to create a matrix of features to predict. Ea
 | Dew point temperature | °C|
 | Solar Radiation | MJ/m2|
 | Rainfal | mm|
-| Snowfall | cm|
+| Snowfall | mm|
 | Seasons | {"Winter", "Autumn", "Spring", "Summer"}|
 | Holiday | {"Holiday", "No Holiday"}|
 
+### Run the API
 
+We can run this server from terminal running the `python deployed_model.py` or `python3 deployed_model.py` according to your OS and python version.
+
+
+### Request the API
 
 From the **preprocessing.py** file I recreate the preprocessing function :
 - set holiday feautre as boolean 
